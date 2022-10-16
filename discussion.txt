@@ -1,5 +1,7 @@
 Class :   1 
 Date : 16th october 2022
 Topic : React Basics
-
-
+ Introduction to React
+ npm : node package manager
+ npx : node paclage execute
+ spa : single page application 
