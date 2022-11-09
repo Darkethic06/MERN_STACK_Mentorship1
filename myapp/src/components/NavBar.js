@@ -1,15 +1,16 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-function Header() {
-    // We can render elements using object in JSX
-    let brand= {
-        brandName : "SkillHaunt",
-        brandSearch : "Search Your Course"
-    }
-  return (
-    <nav className="navbar navbar-expand-lg bg-light">
+class NavBar extends Component {
+  constructor(props){
+   super(props);
+   this.props = props; 
+  }
+
+  render() {
+    return (
+        <nav className="navbar navbar-expand-lg bg-light">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">{brand.brandName}</a>
+          <a className="navbar-brand" href="/">{this.props.logo}</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -37,13 +38,13 @@ function Header() {
               </li>
             </ul>
             <form className="d-flex" role="search">
-              <input className="form-control me-2" type="search" placeholder={brand.brandSearch} aria-label="Search"/>
+              <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
               <button className="btn btn-outline-success" type="submit">Search</button>
             </form>
           </div>
         </div>
       </nav>
-  )
+    )
+  }
 }
-
-export default Header
+export default NavBar

@@ -1,12 +1,16 @@
 
 import React, { Component } from 'react'
 import './App.css'
+import NavBar from './components/NavBar.js'
 import Header from './components/Header.js'
 class App extends Component {
 
   render() {
     return (
+      <>
+      <NavBar logo="Tesla"></NavBar>
      <Header></Header>
+      </>
     )
   }
 }
