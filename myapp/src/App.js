@@ -7,10 +7,10 @@ class App extends Component {
 
   render() {
     return (
-      <>
+      <div>
       <NavBar logo="Tesla"></NavBar>
      <Header></Header>
-      </>
+      </div>
     )
   }
 }
@@ -18,3 +18,8 @@ class App extends Component {
 export default App
 // 1-100 random
 // 0.59 *100 = 59
+
+
+
+
+

@@ -5,3 +5,42 @@ Topic : React Basics
  npm : node package manager
  npx : node paclage execute
  spa : single page application 
+ JSX : JavaScript XML(Extensive Markup Language)
+
+ Component :
+    1. Function Based 
+    2. Class Based
+
+JSX : Tepmplate Rendering
+
+Must have good production experience using React with Typescript.*
+Familiar with style-in-JS concept
+Practical knowledge of Material Design principles and patterns (UX)
+Doesnt need to rely on 3rd party UI libraries like Material UI or Tailwind to create responsive UI
+Should be able to create styles and layouts with no 3rd party Ui libraries, such as Bootstrap, Antd or Mui.
+Practical knowledge of a11y (accessibility) framework*
+Should be familiar with monorepository and should have actually participated*
+
+*State handling
+
+*react hooks
+
+Redux
+
+
+
+Reusable Components *
+
+
+LTS : Long Time Support
+
+npm install -g create-react-app  
+
+npx create-react-app skill 
+
+create-react-app is a package
+
+
+createElement and appendChild ??(On next class)
+
+
