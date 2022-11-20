@@ -2,14 +2,18 @@
 import React, { Component } from 'react'
 import './App.css'
 import NavBar from './components/NavBar.js'
-import Header from './components/Header.js'
+import Banner from './components/Banner.js'
+import Feedback from './components/Feedback.js'
+
 class App extends Component {
 
   render() {
     return (
       <div>
-      <NavBar logo="Tesla"></NavBar>
-     <Header></Header>
+        <NavBar logo="Tesla"></NavBar>
+        <Banner></Banner>
+        <Feedback></Feedback>
+
       </div>
     )
   }

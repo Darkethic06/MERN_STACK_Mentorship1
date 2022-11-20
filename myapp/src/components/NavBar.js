@@ -1,16 +1,18 @@
 import React, { Component } from 'react'
-
 class NavBar extends Component {
   constructor(props){
    super(props);
    this.props = props; 
-  }
+   this.state ={
+    name: "Subhas"
+   }
 
+  }
   render() {
     return (
         <nav className="navbar navbar-expand-lg bg-light">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">{this.props.logo}</a>
+          <a className="navbar-brand" href="/">{this.state.name}</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
