@@ -4,6 +4,7 @@ import './App.css'
 import NavBar from './components/NavBar.js'
 import Banner from './components/Banner.js'
 import Feedback from './components/Feedback.js'
+import Form from './components/Form.js'
 
 class App extends Component {
 
@@ -13,7 +14,7 @@ class App extends Component {
         <NavBar logo="Tesla"></NavBar>
         <Banner></Banner>
         <Feedback></Feedback>
-
+        <Form></Form>
       </div>
     )
   }
