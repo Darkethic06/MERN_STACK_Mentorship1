@@ -23,6 +23,12 @@ Should be familiar with monorepository and should have actually participated*
 
 *State handling
 
+
+
+
+
+
+
 *react hooks
 
 Redux
@@ -42,5 +48,49 @@ create-react-app is a package
 
 
 createElement and appendChild ??(On next class)
+
+
+
+
+
+
+
+OpenSource Platfrom : New technologies
+
+Root Innovation 
+
+
+Single Page
+ 
+navar 
+
+Welcome Section
+
+Work area 
+
+Vision
+
+About 
+
+Team
+
+event 
+
+contact 
+
+footer
+
+20 Days
+
+25th of December submission
+
+
+
+
+
+
+ 
+
+
 
 
